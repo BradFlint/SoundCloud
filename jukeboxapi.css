@@ -1,0 +1,92 @@
+/* placement, size, and background image info */ 
+
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+#juke{	
+	width: 100%;
+	height: 750px;
+	margin-top: 0;
+	margin-bottom: 100px;
+	background-image: url("jukebox2.jpg");
+	background-size: cover;
+	text-align: center;
+
+}
+
+/* artist imagine that is pulled from SoundCloud */
+
+img{
+	width: 300px;
+	width: 225px;
+}
+
+/* Font size and color for header text */
+
+#juke h1{
+	font-size: 65px;
+	color: #F8E9CE;
+	margin-top: 5px;
+}
+
+/* Font size, background color, margins, etc for box displaying the artist info */
+
+#juke2 {
+	width: 300px;
+	height: 400px;
+	text-align: center;
+	padding: 15px 15px 35px 15px;
+	background-color: #F8E9CE;
+	color: black;
+	margin: 0 auto;
+	border-radius: 15px;
+	margin-top: 5px;
+}
+
+body{
+	margin: 0;
+	font-family: Raleway, sans-serif;
+}
+
+/* play button font size, placement, color, etc */
+
+#play{
+	font-size: 35px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	margin-top: 200px;
+}
+
+#play:hover{
+	background-color:#B2B2B2;
+}
+
+/* play button font size, placement, color, etc */
+
+#pause{
+	font-size: 35px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+}
+
+#pause:hover{
+	background-color:#B2B2B2;
+}
+
+/* navagation bar background color, opacity, placement */
+
+.navbar1 {
+	width: 100%;
+	height: 90px;
+	background-color: #524121;
+	position: absolute;
+	top: 0;
+	opacity: .90;
+	box-shadow: 0 10px 6px -9px #333;
+}
+
+
+
+
+
